@@ -1,0 +1,164 @@
+/* -------Responsive media query (Small Device)---------- */
+
+@media screen and (max-width: 576px) {
+
+    header,
+    .change-ur-habit,
+    .run-extra,
+    .bmi-heading,
+    .meet-our-team,
+    .footer-heading, 
+    .service-we-provide { 
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+
+    .fitness-heading {
+        display: flex;
+    }
+    .hamburger-menu {
+        display: block;
+        width: 2.8rem;
+        color: white;
+        font-size: 2.1rem;
+        cursor: pointer;
+    }
+
+    .fitness-heading ul {
+        display: none;
+    }
+    .fitness-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+    .buttons {
+        display: flex;
+        gap: 10px;
+    }
+    .div-header-img {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .header-img {
+        width: 100%;
+        
+    }
+    
+    .emoji {
+        display: block;
+        text-align: center;
+        margin-top: 7.5px;
+        font-size: 20px;
+    }
+    
+
+    /* -----------Change your Habit--------------- */
+    
+    .change-ur-habit-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+     
+    /* -----Run an extra Mile Easy-------*/
+
+    .run-extra {
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .run-extra h3 {
+        margin-left: 33px;
+        margin-right: 33px;
+        margin-top: 40px;
+        
+    }
+    .run-extra p {
+        font-size: 1rem;
+        margin-left: 33px;
+        margin-right: 33px;
+        line-height: 180%;
+    }
+    .run-extra button {
+        width: 83%;
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+    .run-extra img {
+        width: 85%;
+        margin-top: 25px;
+        margin-left: 33px;
+        margin-right: 33px;
+        margin-bottom: 29px;
+    }
+    /* ----------BMI----------- */
+
+    .bmi-chart-and-calculator {
+        flex-direction: column;
+        padding-left: 33px;
+        padding-right: 33px;
+        gap: 0px;
+    }
+    .bmi-chart-table {
+        width: 100%;
+    }
+    .height, .weight, .age, .sex {
+        width: 100%;
+    }
+    
+    .factor {
+        width: 100%;
+    }
+
+    /* -----------Service We Provide-------- */
+
+    .service-we-provide-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service-we-provide-content-part {
+        img {
+            width: 100%;
+        }
+    }
+
+    /* -----------Meet our Team--------- */
+
+    .meet-our-team-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .meet-our-team-img-and-content {
+        text-align: center;
+    }
+    .meet-our-team-img-and-content img {
+        width: 90%;
+    }
+    
+    .meet-our-team-img-content {
+        top: 240px;
+        left: 40px;
+    }
+
+    /* -------Footer-------- */
+
+    footer {
+        padding-left: 33px;
+        padding-right: 33px;
+        margin-top: 80px;
+    }
+    .footer-heading {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 0px;
+    }
+    .footer-end {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        
+    }
+
+}
